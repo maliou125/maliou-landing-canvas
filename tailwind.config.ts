@@ -22,14 +22,13 @@ export default {
 				'poppins': ['Poppins', 'sans-serif'],
 			},
 			backgroundImage: {
-				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-subtle': 'var(--gradient-subtle)',
-			},
-			boxShadow: {
-				'glow': 'var(--shadow-glow)',
-				'soft': 'var(--shadow-soft)',
+				'navy-bg': 'hsl(var(--navy-bg))',
 			},
 			colors: {
+				'navy-bg': 'hsl(var(--navy-bg))',
+				'coral-red': 'hsl(var(--coral-red))',
+				'light-gray': 'hsl(var(--light-gray))',
+				'deep-blue': 'hsl(var(--deep-blue))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
