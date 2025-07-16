@@ -8,41 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 224 100% 98%;
-    --foreground: 233 84% 24%;
+    --background: 144 100% 98%;
+    --foreground: 156 84% 24%;
 
     --card: 0 0% 100%;
-    --card-foreground: 233 84% 24%;
+    --card-foreground: 156 84% 24%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 233 84% 24%;
+    --popover-foreground: 156 84% 24%;
 
-    --primary: 245 75% 52%;
+    --primary: 140 75% 35%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 312 40% 88%;
-    --secondary-foreground: 233 84% 24%;
+    --secondary: 135 40% 88%;
+    --secondary-foreground: 156 84% 24%;
 
-    --muted: 224 40% 96%;
-    --muted-foreground: 233 20% 60%;
+    --muted: 144 40% 96%;
+    --muted-foreground: 156 20% 60%;
 
-    --accent: 325 70% 82%;
-    --accent-foreground: 233 84% 24%;
+    --accent: 142 70% 75%;
+    --accent-foreground: 156 84% 24%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 224 31% 91%;
-    --input: 224 31% 91%;
-    --ring: 245 75% 52%;
+    --border: 144 31% 91%;
+    --input: 144 31% 91%;
+    --ring: 140 75% 35%;
 
     --radius: 0.75rem;
 
-    /* Custom gradient and colors */
-    --gradient-hero: linear-gradient(135deg, 245 75% 52%, 280 100% 70%, 312 70% 60%);
-    --gradient-subtle: linear-gradient(180deg, 224 100% 98%, 245 20% 96%);
-    --shadow-glow: 0 10px 40px -10px hsl(245 75% 52% / 0.3);
-    --shadow-soft: 0 4px 20px -4px hsl(245 75% 52% / 0.15);
+    /* Custom gradient and colors - Dark Green Theme */
+    --gradient-hero: linear-gradient(135deg, 155 85% 25%, 140 75% 35%, 125 65% 45%);
+    --gradient-subtle: linear-gradient(180deg, 144 100% 98%, 140 20% 96%);
+    --shadow-glow: 0 10px 40px -10px hsl(140 75% 35% / 0.3);
+    --shadow-soft: 0 4px 20px -4px hsl(140 75% 35% / 0.15);
 
     --sidebar-background: 0 0% 98%;
 
